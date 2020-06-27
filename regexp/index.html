@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validation</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="data-type">Select the data type:</label>
+                <select class="form-control" id="data-type">
+                    <option value="dui" selected>DUI (XXXXXXXX-X)</option>
+                    <option value="nit">NIT (XXXX-XXXXXX-XXX-X)</option>
+                    <option value="telefono">Phone ([267]XXX-XXXX)</option>
+                    <option value="carnet">School card (AAXXXXXX)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="data">Data:</label>
+                <input type="text" class="form-control" id="data">
+            </div>
+            <div>
+                <input type="submit" class="btn btn-primary" id="validate-button" value="Validate">
+                <input type="reset" class="btn btn-outline-primary" value="Reset">
+            </div>
+        </form>
+        <script type="text/javascript" src="js/script.js"></script>
+    </div>
+</body>
+
+</html>
