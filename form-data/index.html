@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Form data</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class="container mt-5">
+		<h1>Form data</h1>
+		<form>
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" autofocus required>
+					</div>
+					<div class="form-group">
+						<label for="last-name">Last name</label>
+						<input type="text" class="form-control" id="last-name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="text" class="form-control" id="email" required>
+					</div>
+				</div>
+				<div class="col">
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input type="password" class="form-control" id="password" required>
+					</div>
+					<div class="form-group">
+						<label for="confirm-password">Confirm password</label>
+						<input type="password" class="form-control" id="confirm-password" required>
+					</div>
+					<div class="form-group">
+						<label for="date-birth">Date of birth</label>
+						<input type="date" class="form-control" id="date-birth" required>
+					</div>
+				</div>
+			</div>
+			<div class="row text-right mt-3">
+				<div class="col">
+					<input type="button" class="btn btn-success" id="send-data" name="send-data" value="Send data">
+					<input type="reset" class="btn btn-secondary" id="reset">
+				</div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
